@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AdSlot } from "adkit-react";
 
 export default function Home() {
   return (
@@ -11,6 +12,11 @@ export default function Home() {
           width={100}
           height={20}
           priority
+        />
+        <AdSlot
+          siteId="cml6zqogm0005uw3rl1m7s2vx"
+          slotId="cml6zr2ki0007uw3rp0pq4fkc"
+          price={25}
         />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
