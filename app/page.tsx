@@ -1,3 +1,5 @@
+import { AdSlot } from "adkit-react";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-slate-50 font-sans dark:bg-slate-950">
@@ -17,6 +19,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl md:text-5xl">
             Smarter money. Clearer future.
           </h1>
+          <AdSlot slot="numbados" price={2399} aspectRatio="9:16" />
           <p className="mx-auto mt-4 max-w-2xl text-base text-slate-600 dark:text-slate-400 sm:mt-6 sm:text-lg">
             We help individuals and businesses grow wealth with tailored advice and transparent products.
           </p>
