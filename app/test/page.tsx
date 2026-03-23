@@ -31,7 +31,8 @@ export default function Home() {
 
             <div
               data-adkit-site="cmmnwhgqx0002uwepcogh1pwx"
-              data-adkit-slot="sidebar"
+              data-adkit-slot="js_slot"
+              data-adkit-price="2200"
               data-adkit-aspect-ratio="4:3"
             ></div>
             <a
