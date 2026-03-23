@@ -12,6 +12,12 @@ export default function Home() {
           height={20}
           priority
         />
+        <div
+          data-adkit-site="cmn3sbymh0001jj044ajt49pa"
+          data-adkit-slot="first_slot"
+          data-adkit-aspect-ratio="1:1"
+          data-adkit-price="2500"
+        ></div>
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             To get started, edit the page.tsx file.
