@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { AdSlot } from "adkit-react";
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
           height={20}
           priority
         />
-        <AdSlot slot="slotone" price={2500} aspectRatio="4:3" />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             To get started, edit the page.tsx file.
@@ -27,6 +25,15 @@ export default function Home() {
               Templates
             </a>{" "}
             or the{" "}
+
+
+
+
+            <div
+              data-adkit-site="cmmnwhgqx0002uwepcogh1pwx"
+              data-adkit-slot="sidebar"
+              data-adkit-aspect-ratio="4:3"
+            ></div>
             <a
               href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               className="font-medium text-zinc-950 dark:text-zinc-50"
