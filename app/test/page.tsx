@@ -25,16 +25,6 @@ export default function Home() {
               Templates
             </a>{" "}
             or the{" "}
-
-
-
-
-            <div
-              data-adkit-site="cmmnwhgqx0002uwepcogh1pwx"
-              data-adkit-slot="js_slot"
-              data-adkit-price="2200"
-              data-adkit-aspect-ratio="4:3"
-            ></div>
             <a
               href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               className="font-medium text-zinc-950 dark:text-zinc-50"
