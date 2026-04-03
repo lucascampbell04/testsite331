@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { AdkitProvider } from "adkit-react"
+import "adkit-react/styles.css"
 import "./globals.css";
 
 const geistSans = Geist({
@@ -24,12 +26,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+          <AdkitProvider siteId="cmnj7ss7s0002l704e31i0i0r">
       <head><script src="https://cdn.adkit.dev/v1.js" defer></script></head>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           {children}
         </body>
+        </AdkitProvider>
     </html>
   );
 }
