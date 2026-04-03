@@ -13,9 +13,9 @@ export default function Home() {
           priority
         />
         <div
-          data-adkit-site="cmn3sbymh0001jj044ajt49pa"
-          data-adkit-slot="first_slot"
-          data-adkit-aspect-ratio="1:1"
+          data-adkit-site="cmnj7ss7s0002l704e31i0i0r"
+          data-adkit-slot="article"
+          data-adkit-aspect-ratio="16:9"
           data-adkit-price="2500"
         ></div>
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
