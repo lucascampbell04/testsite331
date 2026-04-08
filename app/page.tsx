@@ -14,7 +14,6 @@ export default function Home() {
           </nav>
         </div>
       </header>
-      <AdSlot slot="test" aspectRatio="16:9" price={2500} />
       <main>
         <section className="mx-auto max-w-5xl px-4 py-16 text-center sm:px-6 sm:py-24">
           <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl md:text-5xl">
