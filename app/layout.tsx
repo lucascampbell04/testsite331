@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-          <AdkitProvider siteId="cmnj7ss7s0002l704e31i0i0r">
+          <AdkitProvider siteId="cmnq8v1la0001la04bunkaqtn">
       <head><script src="https://cdn.adkit.dev/v1.js" defer></script></head>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}

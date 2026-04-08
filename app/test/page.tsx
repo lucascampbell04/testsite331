@@ -13,7 +13,6 @@ export default function Home() {
           height={20}
           priority
         />
-        <AdSlot slot="lastone" aspectRatio="banner" price={2500} />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             To get started, edit the page.tsx file.
@@ -35,7 +34,6 @@ export default function Home() {
             </a>{" "}
             center.
           </p>
-          <AdSlot slot="article" aspectRatio="16:9" price={2500} />
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <a
@@ -61,8 +59,8 @@ export default function Home() {
           >
             Documentation
           </a>
-          <AdSlot slot="sidebar" aspectRatio="4:3" price={10000} />
-        </div>
+          <AdSlot slot="footer" aspectRatio="16:9" price={2500} />
+          </div>
       </main>
     </div>
   );
