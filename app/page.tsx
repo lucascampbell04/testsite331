@@ -1,4 +1,4 @@
-import { AdSlot } from "adkit-react";
+
 
 
 export default function Home() {

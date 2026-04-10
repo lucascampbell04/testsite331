@@ -59,8 +59,8 @@ export default function Home() {
           >
             Documentation
           </a>
-          <AdSlot slot="footer" aspectRatio="16:9" price={2500} />
-          </div>
+          <AdSlot slot="first_slot" aspectRatio="16:9" price={2500} />
+        </div>
       </main>
     </div>
   );
