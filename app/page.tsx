@@ -195,7 +195,7 @@ function FeaturesWithAd() {
             <div className="sticky top-24">
               <div className="glass rounded-xl p-3 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-b from-white/[0.02] to-transparent pointer-events-none" />
-                <AdSlot slot="first_slot" aspectRatio="1:1" price={200} />
+                <AdSlot slot="first_slot" aspectRatio="1:1" price={200} styles={{ borderColor: "red", backgroundColor: "blue" }}/>
               </div>
             </div>
           </div>
