@@ -34,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} dark`}>
-      <AdkitProvider siteId="cmnx70f910001l504z8p7hi0r">
+      <AdkitProvider siteId="cmnxo3pyt0001ju04oswknqxi">
         <body className="antialiased">
           <TooltipProvider>{children}</TooltipProvider>
         </body>
